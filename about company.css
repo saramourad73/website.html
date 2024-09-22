@@ -1,0 +1,572 @@
+*{
+
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Nunito:wght@200;300;400;500;600;700&display=swap');
+    
+    
+    .top{
+    
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    position: fixed; 
+    align-items: center;     
+    top: 0%;
+    z-index: 10000;
+    }
+    
+    
+    .logo{
+    width: 100px;
+    height: 75px;
+    padding:15px 10px ;
+    margin-top: 5px; 
+    }
+    
+    
+    .nav-links{ 
+    
+    margin-left: 870px;
+    
+    }
+    
+    
+    
+    .nav-links a{ 
+    text-decoration: none; 
+    padding: 45px 15px 16px 15px; 
+    font-size: 18px;
+    margin: 0 2px ; 
+    width: auto;
+    color: white;
+    transition: 0.5s;
+    
+    }
+    
+    .nav-links a:hover{
+    
+    background-color:  #c19f37;
+    height: 40px;
+    }
+    
+    .active{
+    
+        background-color:  #c19f37;
+    }
+    
+    
+    .lang{
+    color: white;
+     
+    margin-left: 30px;
+     
+        
+    }
+    
+    
+
+       
+    .photo{
+     
+        height:30px;
+        width: 30px;
+        border-radius:7px;
+      
+    }
+
+
+
+
+    .section1{
+
+        background-color:  #1b1b1b;
+        height: 900px;
+        width: 100%;
+        
+        
+        
+        }
+
+
+        .para2{
+
+            color: #c19f37;
+            margin-top:50px ;
+            padding-top:50px ;
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .button1{
+
+            background-color:#c19f37 ;
+            width:150px;
+            height: 50px;
+            border-radius: 10px 0px 10px 0px;
+       border:2px solid #c19f37;
+          cursor: pointer;
+          margin-left: 460px;
+          margin-top: 50px;
+          transition: 0.5s;
+          
+        }
+        .button1:hover{
+            border-radius: 0px 10px 0px 10px;
+            background-color: #1b1b1b;
+            
+            border: 2px solid  #c19f37;
+
+
+        }
+
+        .btn1{
+            color: white;
+            font-family: 'Fira Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .button2{
+
+            background-color:#c19f37 ;
+            width:180px;
+            height: 50px;
+            border-radius: 10px 0px 10px 0px;
+       border:2px solid #c19f37;
+          cursor: pointer;
+          margin-left: 30px;
+          margin-top: 50px;
+          transition: 0.5s;
+          
+        }
+        .button2:hover{
+            border-radius: 0px 10px 0px 10px;
+            background-color: #1b1b1b;
+            
+            border: 2px solid  #c19f37;
+
+
+        }
+
+        .btn2{
+            color: white;
+            font-family: 'Fira Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+
+
+        .button3{
+
+            background-color:#c19f37 ;
+            width:200px;
+            height: 50px;
+            border-radius: 10px 0px 10px 0px;
+       border:2px solid #c19f37;
+          cursor: pointer;
+          margin-left: 30px;
+          margin-top: 50px;
+          transition: 0.5s;
+          
+        }
+        .button3:hover{
+            border-radius: 0px 10px 0px 10px;
+            background-color: #1b1b1b;
+            
+            border: 2px solid  #c19f37;
+
+
+        }
+
+        .btn3{
+            color: white;
+            font-family: 'Fira Sans', sans-serif;
+            letter-spacing: 2px;
+
+        }
+
+
+        .im1{
+
+width: 400px;
+height: 450px;
+margin-top: 70px;
+margin-left: 550px;
+border-radius: 7px;
+object-fit: cover;
+transition: 1s;
+border-radius: none;
+
+
+
+        }
+
+        .im1:hover{
+
+
+ transform: translate(-40px);
+         
+        }
+
+
+        .about1{
+            margin-left: 300px;
+            margin-top: 10px;
+
+
+        }
+
+        .head1{
+
+          
+            color:#c19f37 ;
+            font-size: 30px ;
+            font-family: 'Fira Sans', sans-serif;
+        margin-top: 70px;
+            width: 370px;
+            position: absolute;
+            text-align: center;
+            letter-spacing: 3px;
+            font-weight: 700;
+        }
+
+        .p1{
+color: rgb(154, 142, 142);
+width: 500px;
+text-align: center;
+font-family: 'Fira Sans', sans-serif;
+margin-top: 120px;
+position: absolute;
+margin-left: -50px;
+font-size: 20px;
+word-spacing: 2px;
+line-height: 40px;
+
+
+
+        }
+
+  
+
+
+
+        .section2{
+
+            background-color: #161515;
+            height: 900px;
+            width: 100%;
+            margin-top: -50px;
+
+        }
+        .display{
+
+            display: flex;
+            justify-content:space-around;
+            
+        }
+
+        .box1{
+
+            width: 600px;
+            height: 600px;
+            background-color:#161515 ;
+            box-shadow: #7a7474 0px 0px 12px 0px;
+            margin-top: 100px;
+            border-radius: 10px;
+        }
+
+
+       .im2{
+
+        margin-left: 250px;
+        margin-top: 50px;
+       }
+
+        .head2{
+
+            color: #c19f37;
+            margin-top: 30px;
+            font-family: 'Fira Sans', sans-serif;
+            margin-left: 210px;
+            font-size: 30px ;
+        
+          }
+
+          .p2{
+
+            color: rgb(154, 142, 142);
+            width: 500px;
+            text-align: center;
+            font-family: 'Fira Sans', sans-serif;
+            margin-top: 40px;
+            font-size: 20px;
+            word-spacing: 2px;
+            line-height: 40px;
+            margin-left: 50px;
+           
+           
+
+          }
+
+    .section5{
+
+        position: relative;
+        width: 100%;
+        height: 490px;
+        background-color: #000000;
+      
+      
+     }
+    
+     .f1{
+    position: absolute;
+    width: 170px;
+    height: 100px;
+    margin-left:207px ;
+    margin-top: 70px;
+    
+    
+     }
+    
+     .global{
+    
+    
+        color: white;
+        margin-top: 190px;
+        position: absolute;
+        font-family: 'Fira Sans', sans-serif;
+       text-align: center;
+       margin-left:140px ;
+       width: 300px;
+     
+     }
+    
+     .contact{
+    
+    
+        margin-top: 50px;
+        margin-left:650px ;
+        color: #c19f37;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        position: absolute;
+    
+     }
+    
+     .phone{
+    
+        width: 25px;
+        height: 25px;
+        margin-top: 120px;
+        margin-left: 670px;
+     }
+    
+     .number{
+    
+      font-size: 17px;
+        margin-top: 120px;
+        margin-left: 30px;
+        color: white;
+        position: absolute;
+     }
+    
+     .adress{
+    width: 25px;
+    height: 25px;
+    margin-left: 630px;
+    margin-top: 40px;
+    
+    
+     }
+    
+     .adress1{
+    color: white;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    position: absolute;
+    margin-top: 40px;
+        
+     }
+    
+    
+     .hover1{
+        border-radius: 100%;
+       background-color: white;
+       width: 50px;
+       height: 50px;
+       margin-top: 50px;
+       margin-left: 660px;
+       transition: 0.3s;
+     }
+    
+    .facebook{
+    
+    
+        border-radius: 100%;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+      
+    }
+    
+    .hover1:hover{
+    background-color: #38569e;
+    
+    }
+    
+    .hover2{
+        border-radius: 10px;
+       background-color: white;
+       width: 45px;
+       height: 45px;
+       margin-top:-45px;
+       margin-left: 750px;
+       transition: 0.3s;
+       position: absolute;
+     
+     }
+    
+    .instgram{
+    
+    
+        border-radius: 10px;
+        margin-top: 7px;
+        margin-left:8px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+       }
+    
+    
+    .hover2:hover{
+        background-color:#ff0763;    
+     }
+    
+    
+    
+    .maps{
+    
+    
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 35px;
+        height: 35px;  
+        position: absolute;
+    }
+    
+    
+    .hover3{
+       border-radius: 20px 20px 0px 0px;
+       background-color: white;
+       width: 45px;
+       height: 45px;
+       margin-top:-45px;
+       margin-left: 840px;
+       transition: 0.3s;
+       position: absolute;
+     
+     }
+    
+     .hover3:hover{
+        background-color:#0eab61;
+     }
+    
+     .busi{
+        margin-top: -270px;
+        margin-left:1090px ;
+        color: #c19f37;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        position: absolute;
+    
+     }
+    
+     .day{
+        margin-left:1150px ;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 20px;
+        position: absolute;
+        font-weight: 700;
+        margin-top: -200px;
+        color: white;
+       }
+    
+      .work{
+        width: 35px;
+        height: 35px;
+        margin-top:-170px ;
+        margin-left: 1095px;
+        position: absolute;
+    
+      } 
+    
+    
+      .work1{
+    
+        color: white;
+        font-size: 17px;
+        font-family: 'Fira Sans', sans-serif;
+        position: absolute;
+        margin-top:-165px;
+        margin-left:1135px ;
+    
+      }
+    
+      .holiday{
+        margin-left:1180px ;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 20px;
+        position: absolute;
+        font-weight: 700;
+        margin-top: -90px;
+        color: white;
+      }
+    
+      .sleep{
+        width: 35px;
+        height: 35px;
+        margin-top:-50px ;
+        margin-left: 1110px;
+        position: absolute;
+      }
+    
+    
+      .sleep1{
+        color: white;
+        font-size: 17px;
+        font-family: 'Fira Sans', sans-serif;
+        position: absolute;
+        margin-top:-55px;
+        margin-left:1140px ;
+      }
+    
+    
+      hr{
+       font-size:20px solid ;
+       width: 100%;
+       margin-top: 100px;
+      }
+    
+    
+     .copy-right{
+      color: white;
+      font-size: 17px;
+      margin-top: 20px;
+      font-family: 'Fira Sans', sans-serif;
+     }
+    
